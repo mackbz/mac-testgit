@@ -1,0 +1,29 @@
+:h pour accéder à l'aide,
+
+:w pour enregistrer,
+
+:w nom_du_fichier pour faire enregistrer-sous nom_du_fichier,
+
+:q pour quitter,
+
+:wq pour enregistrer et quitter,
+
+:q! pour quitter sans enregistrer les modifications,
+
+:r pour inclure le contenu d'un autre fichier,
+
+/mot_clef pour faire rechercher un mot (n pour passer à l'itération suivante),
+
+:numéro_de_ligne pour aller directement à cette ligne,
+
+y nombre_de_lignes y (sans espace) pour copier ce nombre de ligne à partir du curseur (yy pour copier une ligne ou un groupe de mots en mode visuel),
+
+d nombre_de_lignes d (sans espace) pour couper ce nombre de ligne à partir du curseur (dd pour couper une ligne en mode commande ou un groupe de mots en mode visuel),
+
+p pour coller après le curseur,
+
+u pour annuler la dernière modification. Vous pouvez appuyer plusieurs fois sur u pour annuler les dernières modifications.
+
+Ctrl-r pour annuler la dernière annulation. Vous pouvez renouveler la combinaison de touches pour annuler les annulations antérieures.
+
+:%s/toto/tata/g pour remplacer toutes les occurrences de la chaîne de caractères toto par la chaîne de caractère tata.
